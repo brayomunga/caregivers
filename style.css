@@ -1,0 +1,120 @@
+body{
+background-color: wheat;
+background-image: url(images/lambo/felipe-simo-HBop_t9V9kM-unsplash.jpg);
+background-position: fixed;
+background-size: cover; 
+ }
+h1{
+    color: black;
+}
+.header {
+
+    text-align: center;
+    padding: 2px;
+    margin: 20px;
+  }
+ p{
+  font-size: 50px;
+  font-family: serif;
+  color: aqua;
+ } 
+  .topnav{
+     color: #f2f2f2;
+  text-align: center;
+  padding: 50px 75px;
+  margin: 29px;
+  
+  display: flex;
+  
+  }
+   .topnav b{
+    float: right;
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 1px 1px
+  }
+  .topnav b:hover{
+    background-color: aquamarine;
+    }
+    .topnav a{
+      float: left;
+      display: block;
+      color: blue;
+      text-align: center;
+      padding: 1px 1px;
+    }
+    .topnav a:hover{
+      background-color: aquamarine;
+      }
+
+  
+  .footer{
+  position: absolute;
+   bottom: 1;
+   left: 0;
+   right: 0;
+   height: auto;
+   color: black;
+   background-color: dark;
+    text-align: center;
+   padding-top: 40px;
+   display: flex;
+   left-margin
+
+  } 
+  .footer div{
+    text-align: center;
+  }
+  /* Style the footer links */
+  .col-1{
+    color:blue
+    padding: 1px 1px;
+    text-align: center;
+    
+  }
+
+  .col-2{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+    margin-left: 20%;
+
+  }
+  .col-3{
+    flex-grow: 5;
+    margin-left: 30%;
+  }
+  .footer div h3{
+font-weight: 300px;
+margin-bottom: 30px;
+letter-spacing: 1px;
+  }
+  .form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border:none;
+  }
+  .form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+     border: radius 30px; 
+     padding: 10px 30px;
+    font-size: 15px; 
+    cursor: pointer; 
+    }
+    .social-icons{
+      margin-top: 30px;
+    }
+    .social-icons i{
+      font-size: 22px;
+      margin: 10px;
+      cursor: pointer;
+    }
